@@ -12,3 +12,17 @@ img{
     height: 150px;
     background-color: #EEEEEE;
 }
+/* Classes*/
+.diagonal-gradient {
+    background: linear-gradient(to bottom right, blue, pink);
+    border-radius: 50px;
+  }
+
+.auto-spaced-linear-gradient {
+   background-color:#FDF4F5;
+  }
+  /* Id*/
+#heading{
+    font-size: 50px;
+    font-style: italic;
+}
