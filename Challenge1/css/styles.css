@@ -1,0 +1,11 @@
+body{
+    background-color: #577D86;
+}
+h1{
+    color: #002B5B;
+    font-size: 100px;
+}
+h1:hover{
+    color: #324152;
+    font-size: 105px;
+}
