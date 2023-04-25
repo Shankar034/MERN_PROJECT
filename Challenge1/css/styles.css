@@ -1,11 +1,28 @@
 body{
-    background-color: #577D86;
+    margin: 0px;
+    background-color: #E3FDFD;
 }
 h1{
+    margin-top: 0px;
     color: #002B5B;
-    font-size: 100px;
+    
 }
 h1:hover{
-    color: #324152;
-    font-size: 105px;
+    color: #a6b0bd;
+    cursor: pointer;
+   
+}
+.top{
+    background-color: #A6E3E9;
+    
+}
+.middle{
+    height: 200px;
+    width: 200px;
+    background: #19376D;
+}
+.buttom{
+    height: 200px;
+    width: 200px;
+    background-color: #0B2447;
 }
