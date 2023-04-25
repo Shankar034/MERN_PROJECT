@@ -14,15 +14,27 @@ h1:hover{
 }
 .top{
     background-color: #A6E3E9;
-    
+    border: solid 10px;
+    width: 175px;
+    height: 175px;
+    padding: 5px;
 }
 .middle{
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
+    border: solid 20px;
+    margin-left: 28%;
     background: #19376D;
 }
 .buttom{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
+    border: solid 10px;
     background-color: #0B2447;
+    margin-left: 54%;
+}
+.container{
+    background: white;
+    margin: 0;
+    width: 761px;
 }
