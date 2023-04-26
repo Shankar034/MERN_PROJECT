@@ -13,10 +13,7 @@ h1:hover{
    
 }
 .top{
-    background-color: #A6E3E9;
-    border: solid 10px;
-    width: 175px;
-    height: 175px;
+   
     padding: 5px;
 }
 .middle{
@@ -37,4 +34,15 @@ h1:hover{
     background: white;
     margin: 0;
     width: 761px;
+}
+.mountain{
+    width: auto;
+    height: 400px;
+}
+.cloud{
+    width: auto;
+    height: auto;
+}
+span{
+    text-decoration: underline;
 }
