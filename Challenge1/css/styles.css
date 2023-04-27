@@ -16,25 +16,42 @@ h1:hover{
    
     padding: 5px;
 }
+
+.container{
+    position: relative;
+    left: 251px;
+}
+
+
 .first{
-    height: 160px;
-    width: 160px;
+    
+    height: 100px;
+    width: 100px;
     border: solid pink 20px;
-  
     background: #0e244b;
+    position: absolute;
+    
 }
 .second{
-    height: 180px;
-    width: 180px;
+    height: 120px;
+    width: 120px;
     border: solid yellow 10px;
     background-color: #10a831;
+    position: absolute;
+    top: 141px;
+    left: 140px;
+   
     
 }
 .third{
-    height: 180px;
-    width: 180px;
+    height: 120px;
+    width: 120px;
     border: solid red 10px;
     background-color: #640a19;
+    position: absolute;
+    top: 282px;
+    left: 280px;
+    
    
 }
 
