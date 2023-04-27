@@ -12,9 +12,33 @@ h1:hover{
     cursor: pointer;
    
 }
-.top{
-   
-    padding: 5px;
+.top-container{
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    height: auto;
+}
+
+.mountain{
+    width: 600px;
+    height: 495px;
+    position: absolute;
+    right: 50px;
+    top: 105px;
+}
+.top-cloud{
+    height: 20vh;
+    position: absolute;
+    left: 60vw;
+    top: 6vw;
+}
+.bottom-cloud{
+    height: 20vh;
+    position: absolute;
+    left: 10vw;
+}
+span{
+    text-decoration: underline;
 }
 
 .container{
@@ -55,14 +79,3 @@ h1:hover{
    
 }
 
-.mountain{
-    width: auto;
-    height: 400px;
-}
-.cloud{
-    width: auto;
-    height: auto;
-}
-span{
-    text-decoration: underline;
-}
