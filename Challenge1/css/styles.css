@@ -16,25 +16,28 @@ h1:hover{
    
     padding: 5px;
 }
-.middle{
+.first{
     height: 160px;
     width: 160px;
-    border: solid 20px;
-    margin-left: 28%;
-    background: #19376D;
+    border: solid pink 20px;
+  
+    background: #0e244b;
 }
-.buttom{
+.second{
     height: 180px;
     width: 180px;
-    border: solid 10px;
-    background-color: #0B2447;
-    margin-left: 54%;
+    border: solid yellow 10px;
+    background-color: #10a831;
+    
 }
-.container{
-    background: white;
-    margin: 0;
-    width: 761px;
+.third{
+    height: 180px;
+    width: 180px;
+    border: solid red 10px;
+    background-color: #640a19;
+   
 }
+
 .mountain{
     width: auto;
     height: 400px;
