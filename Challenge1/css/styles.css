@@ -40,10 +40,10 @@ h1:hover{
 }
 
 .mountain{
-    width: 600px;
-    height: 495px;
+    width: 750px;
+    height: 645px;
     position: absolute;
-    left: 20vw;
+    left: 12vw;
     top: 105px;
 }
 .top-cloud{
