@@ -62,7 +62,10 @@ span{
 }
 
 /* MIDDLE-CCONTAINER */
-
+.profile img{
+    width: 300px;
+    height: 300px;
+}
 
 
 /* BOTTOM-CONTAINER */
