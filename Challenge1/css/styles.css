@@ -3,7 +3,7 @@
 
 body{
     margin: 0px;
-    background-color: #E3FDFD;
+   
     text-align: center;
     font-family: 'Merriweather', serif;
 }
@@ -34,9 +34,10 @@ h1:hover{
 /* TOP-CONTAINER */
 .top-container{
     text-align: center;
+    background-color: #E3FDFD;
     padding-top: 60px;
     position: relative;
-    height: auto;
+    height: 522px;
 }
 
 .mountain{
@@ -59,6 +60,9 @@ h1:hover{
 }
 span{
     text-decoration: underline;
+}
+img{
+    border-radius: 100%;
 }
 
 /* MIDDLE-CCONTAINER */
