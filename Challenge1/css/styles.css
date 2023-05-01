@@ -16,16 +16,16 @@ h1{
     font-weight: bold;
 }
  h2{
-    color:#577D86;
+    color:#13748a;
     font-family: 'Montserrat', sans-serif;
  } 
  
 h3{
-    color: #7C96AB;
+    color: #122a3e;
     font-family: 'Montserrat', sans-serif;
 }
 p{
-    color: #0e244b;
+    color: #101f3a;
     margin-top: 0px;
 }
 
@@ -86,13 +86,26 @@ span{
 .skill-row p{
     line-height: 2;
 }
-.skill-row img{
+.coding{
     height: 11rem;
     width: 11rem;
     border-radius: 100%;
+    float: left;
+    margin-right: 30px;
 }
-
-
+.hot-wings{
+    height: 11rem;
+    width: 11rem;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+/* .coding-description{
+    clear: left;
+}
+.hot-wings-description{
+    clear: right;
+} */
 /* BOTTOM-CONTAINER */
 
 
