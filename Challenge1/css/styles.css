@@ -13,15 +13,19 @@ h1{
     margin: 0px auto;
     color: #002B5B;
     padding-top: 40px;
+    font-weight: bold;
 }
  h2{
+    color:#577D86;
     font-family: 'Montserrat', sans-serif;
  } 
  
 h3{
+    color: #7C96AB;
     font-family: 'Montserrat', sans-serif;
 }
 p{
+    color: #0e244b;
     margin-top: 0px;
 }
 
@@ -61,14 +65,31 @@ h1:hover{
 span{
     text-decoration: underline;
 }
-img{
-    border-radius: 100%;
-}
+
 
 /* MIDDLE-CCONTAINER */
 .profile img{
-    width: 300px;
-    height: 300px;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    margin: 50px 0;
+    text-align: left;
+   
+}
+.skill-row p{
+    line-height: 2;
+}
+.skill-row img{
+    height: 11rem;
+    width: 11rem;
+    border-radius: 100%;
 }
 
 
