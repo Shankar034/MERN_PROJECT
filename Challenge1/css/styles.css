@@ -164,7 +164,7 @@ span{
 /* BOTTOM-CONTAINER */
 
 .bottom-container{
-    background-color: #519598;
+    background-color: #91a4a985;
     align-items: center;
     padding-top: 20px;
     margin-top: 50px;
@@ -183,7 +183,7 @@ span{
     margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 0px;
     font-size: smaller;
 }
