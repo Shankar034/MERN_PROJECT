@@ -45,12 +45,12 @@ h1:hover{
     background-color: #E3FDFD;
     padding-top: 60px;
     position: relative;
-    height: 522px;
+    height: 540px;
 }
 
 .mountain{
     width: 750px;
-    height: 645px;
+    height: 672px;
     position: absolute;
     left: 12vw;
     top: 105px;
@@ -113,7 +113,44 @@ span{
     margin: 30px auto;
     width: 40%;
 }
-.btn{
+
+.btn {
+    background: #5ea3d1;
+    background-image: -webkit-linear-gradient(top, #5ea3d1, #2f4f63);
+    background-image: -moz-linear-gradient(top, #5ea3d1, #2f4f63);
+    background-image: -ms-linear-gradient(top, #5ea3d1, #2f4f63);
+    background-image: -o-linear-gradient(top, #5ea3d1, #2f4f63);
+    background-image: linear-gradient(to bottom, #5ea3d1, #2f4f63);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 1px 3px #4a3a4a;
+    -moz-box-shadow: 0px 1px 3px #4a3a4a;
+    box-shadow: 0px 1px 3px #4a3a4a;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 11px 22px 9px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #244e69;
+    background-image: -webkit-linear-gradient(top, #244e69, #3498db);
+    background-image: -moz-linear-gradient(top, #244e69, #3498db);
+    background-image: -ms-linear-gradient(top, #244e69, #3498db);
+    background-image: -o-linear-gradient(top, #244e69, #3498db);
+    background-image: linear-gradient(to bottom, #244e69, #3498db);
+    text-decoration: none;
+  }
+/* .coding-description{
+    clear: left;
+}
+.hot-wings-description{
+    clear: right;
+} */
+/* .btn{
     background-color: #206567;
     color: aliceblue;
     border-radius: 5px;
@@ -122,22 +159,16 @@ span{
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 5px;
-}
-/* .coding-description{
-    clear: left;
-}
-.hot-wings-description{
-    clear: right;
 } */
-
 
 /* BOTTOM-CONTAINER */
 
 .bottom-container{
-    background-color: #64dce0;
+    background-color: #519598;
     align-items: center;
     padding-top: 20px;
     margin-top: 50px;
+    padding: 20px 0 20px;
 }
 .bottom-container a{
     color: #11999E;
@@ -150,9 +181,11 @@ span{
 }
 .bottom-container p{
     margin-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
     color: white;
     margin-bottom: 0px;
+    font-size: smaller;
 }
 .first{
     
