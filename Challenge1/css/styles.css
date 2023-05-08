@@ -28,14 +28,10 @@ hr{
     
     border: none;
     border-top: 5px dotted rgb(202, 200, 200);
-   
+    margin: 40px auto;
     width: 3%;
 }
-p{
-    color: #101f3a;
-    margin-top: 0px;
-    font-size: small;
-}
+
 
 h1:hover{
     color: #a6b0bd;
@@ -82,12 +78,17 @@ span{
     border-radius: 100%;
     margin-top: 25px;
 }
-
+.intro{
+    color: #101f3a;
+    margin: auto;
+    
+    width: 30%;
+}
 
 .skill-row{
     display: inline-block;
     width: 50%;
-    margin: 50px 0;
+    margin-top: 50px;
     text-align: left;
    
 }
@@ -109,7 +110,8 @@ span{
     margin-left: 30px;
 }
 .contact-me p{
-    margin-bottom: 30px;
+    margin: 30px auto;
+    width: 40%;
 }
 .btn{
     background-color: #206567;
@@ -150,6 +152,7 @@ span{
     margin-top: 10px;
     padding-bottom: 15px;
     color: white;
+    margin-bottom: 0px;
 }
 .first{
     
