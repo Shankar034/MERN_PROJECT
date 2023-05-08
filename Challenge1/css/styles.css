@@ -24,9 +24,17 @@ h3{
     color: #122a3e;
     font-family: 'Montserrat', sans-serif;
 }
+hr{
+    
+    border: none;
+    border-top: 5px dotted rgb(202, 200, 200);
+   
+    width: 3%;
+}
 p{
     color: #101f3a;
     margin-top: 0px;
+    font-size: small;
 }
 
 h1:hover{
@@ -100,16 +108,49 @@ span{
     float: right;
     margin-left: 30px;
 }
+.contact-me p{
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #206567;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 80px;
+    font-family: 'Montserrat', sans-serif;;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 5px;
+}
 /* .coding-description{
     clear: left;
 }
 .hot-wings-description{
     clear: right;
 } */
+
+
 /* BOTTOM-CONTAINER */
 
-
-
+.bottom-container{
+    background-color: #64dce0;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.bottom-container a{
+    color: #11999E;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 200;
+    
+}
+.bottom-container p{
+    margin-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+}
 .first{
     
     height: 100px;
