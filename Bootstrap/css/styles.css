@@ -46,9 +46,9 @@ h1{
 /* Second Section  */
 
 
-.feature{
+#features{
     
-    margin: 20px 10px;
+    padding: 3% 15% ;
     
     
 }
@@ -56,10 +56,9 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
 .item{
     padding: 20px 20px;
     margin: auto;
-    
-
 
 }
