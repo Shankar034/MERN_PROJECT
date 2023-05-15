@@ -92,20 +92,31 @@ i:hover{
     background-color: #4cc0ff;
 }
 
-
 .testimonial-image{
-    height: 200px;
+    width: 30%;
+    border-radius: 100%;
+    margin: 10px;
 }
 em{
     color: #ffffff;
 }
 
 
+/* press  */
 
+#press{
+    background-color:#4cc0ff ;
+    text-align: center;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding-bottom: 50px;
+}
 
 /* slider  */
 #sliders{
-    background-color: #4cc0ff;
+    background-color: #6e6e6e;
 }
 .carousel-item{
     height: 200px;
