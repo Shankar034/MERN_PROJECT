@@ -48,17 +48,22 @@ h1{
 
 #features{
     
-    padding: 3% 15% ;
+    padding: 7% 15% ;
     
     
 }
 .row{
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
-
+h3{
+   font-family: 'Montserrat-Bold'; 
+}
+p{
+    color: rgb(97, 97, 97);
+}
 .item{
-    padding: 20px 20px;
-    margin: auto;
+    text-align: center;
+    padding: 4.5%;
+    
 
 }
