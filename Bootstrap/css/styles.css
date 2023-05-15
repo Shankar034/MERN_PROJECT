@@ -29,8 +29,20 @@ h1{
     line-height: 1.5;
     font-weight: bold;
     color: white;
+    font-size: 3.5rem;
+    
 
 }
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+
+}
+h3{
+    font-family: 'Montserrat-Bold'; 
+ }
 .container-fluid{
     padding: 3% 15%;
 }
@@ -52,12 +64,8 @@ h1{
     
     
 }
-.row{
-    width: 100%;
-}
-h3{
-   font-family: 'Montserrat-Bold'; 
-}
+
+
 p{
     color: rgb(97, 97, 97);
 }
@@ -66,4 +74,39 @@ p{
     padding: 4.5%;
     
 
+}
+i{
+    color: #6ba0aa;
+}
+
+i:hover{
+    color: #4cc0ff;
+    cursor: pointer;
+}
+
+/* testimonials Section */
+
+#testmonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #4cc0ff;
+}
+
+
+.testimonial-image{
+    height: 200px;
+}
+em{
+    color: #ffffff;
+}
+
+
+
+
+/* slider  */
+#sliders{
+    background-color: #4cc0ff;
+}
+.carousel-item{
+    height: 200px;
 }
