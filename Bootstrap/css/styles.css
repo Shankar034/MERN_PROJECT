@@ -87,13 +87,14 @@ i:hover{
 /* testimonials Section */
 
 #testmonials{
-    padding: 7% 15%;
+    
     text-align: center;
     background-color: #4cc0ff;
 }
 
 .testimonial-image{
     width: 30%;
+    height: auto;
     border-radius: 100%;
     margin: 10px;
 }
@@ -115,9 +116,6 @@ em{
 }
 
 /* slider  */
-#sliders{
-    background-color: #6e6e6e;
-}
 .carousel-item{
-    height: 200px;
+    padding: 7% 15%;
 }
