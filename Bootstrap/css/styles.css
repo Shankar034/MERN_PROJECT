@@ -62,7 +62,7 @@ h3{
 
 #features{
     background-color: white;
-    padding: 7% 15% ;
+    padding: 3% 15% ;
     position: relative;
     
     
@@ -102,9 +102,7 @@ i:hover{
     border-radius: 100%;
     margin: 10px;
 }
-em{
-    color: #ffffff;
-}
+
 
 
 /* press  */
@@ -133,8 +131,25 @@ em{
 }
 
 
+#download{
+    padding: 7% 15%;
+    background-color: #4cc0ff;
+    text-align: center;
+}
 
-/* mediaa */
+/* footer section  */
+
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+}
+.ic{
+    margin: 0 7px;
+}
+#footer p{
+    padding-top: 5px;
+}
+/* media */
 
 
 @media (max-width:1012px){
