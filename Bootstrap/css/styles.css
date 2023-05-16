@@ -125,15 +125,35 @@ em{
 
 #pricing{
     padding: 7% 15%;
-}
-.pricing-detail{
     text-align: center;
-
 }
 
-.row{
-    align-items: center;
+
+#index{
+    position:absolute;
 }
-.pricing-item{
+.red{
+    width:100px;
+    height:100px;
+    background:red;
+    
+    
+}
+.yellow{
+    width:100px;
+    height:100px;
+    background:yellow;
+    top:100px;
+    left:100px;
+    z-index:-2;
+  
+}
+.green{
+    width:100px;
+    height:100px;
+    background:cyan;
+    top:150px;
+    left:150px;
+    z-index:-1;
     
 }
