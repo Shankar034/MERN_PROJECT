@@ -45,7 +45,7 @@ h3{
     font-family: 'Montserrat-Bold'; 
  }
 .container-fluid{
-    padding: 1% 15% 3%;
+    padding: 1% 15% 7%;
 }
 .download-button{
     margin: 5% 3% 5% 0;
@@ -64,7 +64,7 @@ h3{
     background-color: white;
     padding: 7% 15% ;
     position: relative;
-    z-index: 1;
+    
     
     
 }
@@ -133,3 +133,16 @@ em{
 }
 
 
+
+/* mediaa */
+
+
+@media (max-width:1012px){
+    #title{
+        text-align: center;
+    }
+    .dog{
+        position: static;
+        transform: rotate(0);
+    }
+}
