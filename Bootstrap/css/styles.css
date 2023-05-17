@@ -6,6 +6,12 @@ h1,h2,h3,h4,h5,h5{
     font-family: 'Montserrat-Bold';
 
 }
+h1{
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
 
 h2{
     font-family: "Montserrat-Bold";
