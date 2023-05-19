@@ -44,3 +44,31 @@ body{
     background-color: aliceblue;
     color: rgb(65, 105, 38);
 }
+
+.images{
+ margin: 3% 10%;
+ width: 60%;
+ height: 120vh;
+ 
+
+ 
+}
+.pic{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+}
+/* .img1{
+    display:inline ;
+    position: sticky;
+    top: 262px;
+    left: 309px;
+} */
+
+.img1{
+    display: flex;
+    position: sticky;
+    top: 262px;
+    left: 309px;
+}
