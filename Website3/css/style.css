@@ -41,3 +41,49 @@ header{
     animation: ease-out 100;
     
 }
+
+/* home section  */
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image:url("../images/img1.png") ;
+    background-size:contain ;
+    background-repeat:no-repeat ;
+    background-position: right;
+    background-color: rgb(148, 109, 109);
+    
+}
+.info{
+    padding: 7% 15%;
+}
+.one{
+    font-size: 16px;
+    color: rgb(113, 45, 45);
+    padding: 7px;
+}
+.two{
+    font-size:50px;
+    padding: 7px;
+
+}
+.two span{
+    color: rgb(113, 45, 45);
+}
+.three{
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+}
+.btn{
+    color: white;
+    padding: 5px 10px;
+    background: rgb(113, 45, 45);
+    border-radius: 10px;
+    border: 1px solid yellow;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 7px;
+
+
+}
