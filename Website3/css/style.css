@@ -53,6 +53,7 @@ header{
     background-position: right;
     background-color: rgb(148, 109, 109);
     
+    
 }
 .info{
     padding: 7% 15%;
@@ -74,16 +75,69 @@ header{
     color: white;
     font-size: 18px;
     padding: 7px;
+    margin-bottom: 20px;
 }
 .btn{
     color: white;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background: rgb(113, 45, 45);
     border-radius: 10px;
     border: 1px solid yellow;
     font-size: 13px;
     text-decoration: none;
-    margin: 7px;
+    margin: 10px;
 
 
+}
+.btn:hover{
+    transform: scale(1.14) translateX(-5px);
+    background: none;
+}
+
+/* about section  */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 7%;
+    background-color: rgb(148, 109, 109);
+}
+.about-img{
+    margin-top: 20px;
+}
+.im{
+    width: 325px;
+}
+.about-info{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.four{
+    font-size: 40px;
+    color: White;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.five{
+    color: rgb(113, 45, 45);
+    padding: 6px;
+}
+.six{
+    color: rgb(43, 43, 44);
+    padding: 6px;
+}
+.seven{
+    color: white;
+    font-size: 16px;
+    display: grid;
+    padding: 7px;
+
+
+
+}
+.and{
+   margin-bottom: 20px;
 }
