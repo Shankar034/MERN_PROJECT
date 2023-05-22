@@ -155,7 +155,6 @@ header{
 .services{
     padding: 3% 10%;
     background-color: #394867;
-    
     text-align: center;
 }
 .boxes{
@@ -192,6 +191,7 @@ header{
 .service-p{
     color: white;
     font-size: 18px;
+    padding-bottom: 15px;
 }
 .box-des{
     font-size: 19px;
@@ -202,4 +202,24 @@ header{
     transform: scale(1.01) translateY(-5px);
     border-top: 5px solid rebeccapurple;
     cursor: pointer;
+}
+
+/* section portfolio  */
+.portfolio{
+    padding: 3% 10%;
+    background-color: #5C469C;
+    text-align: center;
+}
+.po1{
+    width: 200px;
+    border-radius: 5px;
+}
+.portfolio-content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.row{
+    padding: 15px;
+    margin: 10px 20px;
 }
