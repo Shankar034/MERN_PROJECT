@@ -212,7 +212,7 @@ header{
 }
 .po1{
     width: 200px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .portfolio-content{
     display: flex;
@@ -222,4 +222,85 @@ header{
 .row{
     padding: 15px;
     margin: 10px 20px;
+    
+}
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row:hover{
+    transform: scale(1.01) translateY(-4px);
+    border-top: 5px solid rgb(173, 123, 223);
+    cursor: pointer;
+}
+
+/* contact section  */
+
+
+.contact{
+        padding: 3% 10%;
+        background-color: #D4ADFC;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.contact-me{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+}
+.contact-form{
+    width: 49%;
+}
+
+.contact-me .three{
+    margin: 0;
+}
+
+.contact-icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.fi{
+    margin: 20px;
+}
+
+.fi:hover{
+    transform: scale(1.08) ;
+    translate: 2px;
+    animation: ease-in 1s;
+    cursor: pointer;
+    
+}
+
+.contact-form{
+    /* background: red; */
+}
+.name{
+    width: 100%;
+    float: left;
+    height: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    padding: 2% 3%;
+    margin: 15px ;
+
+}
+.info{
+    width: 100%;
+    float: left ;
+    height: 100px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    padding: 2% 3%;
+    margin: 15px ;
+   
+}
+.submit{
+    float: left;
 }
