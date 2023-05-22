@@ -39,6 +39,9 @@ header{
     color: aqua;
     background-color: white;
     animation: ease-out 100;
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid rgb(43, 149, 190);
+    cursor: pointer;
     
 }
 
@@ -90,8 +93,11 @@ header{
 
 }
 .btn:hover{
-    transform: scale(1.14) translateX(-5px);
-    background: none;
+    transform: scale(1.01) translateY(-5px);
+    border: 5px solid rgb(203, 216, 87);
+    cursor: pointer;
+    background: transparent;
+    
 }
 
 /* about section  */
@@ -140,4 +146,60 @@ header{
 }
 .and{
    margin-bottom: 20px;
+}
+
+
+/* services section  */
+
+
+.services{
+    padding: 3% 10%;
+    background-color: #394867;
+    
+    text-align: center;
+}
+.boxes{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.box{
+    width: 250px;
+    height: 300px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.box1{
+    background-color: #8294C4;
+}
+.box2{
+    background-color: #ACB1D6;
+}
+.box3{
+    background-color: #DBDFEA;
+}
+.ic{
+    margin: 20px;
+}
+.service-title{
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    padding: 20px;
+}
+.service-p{
+    color: white;
+    font-size: 18px;
+}
+.box-des{
+    font-size: 19px;
+    color: #394867;
+    padding: 10px;
+}
+.box:hover{
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid rebeccapurple;
+    cursor: pointer;
 }
