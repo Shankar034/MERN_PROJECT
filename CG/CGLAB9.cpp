@@ -2,23 +2,31 @@
 #include<conio.h>
 #include<graphics.h>
 #include<math.h>
+void pixel(int x, int y, int xc, int yc){
+	putpixel(360 + x,240 + y, 14);
+	putpixel(360 + x,240 - y, 14);
+	putpixel(360 - x,240 + y, 14);
+	putpixel(360 - x,240 - y, 14);
+}
 int main(){
 	int gd=DETECT,gm;
 	initgraph(&gd,&gm,(char *)"");
 	
 	int rx,ry,xc,yc;
-	float x,y;
-	float p1,p2;
+	int x,y;
+	int p1,p2;
 	printf("Enter the Major and Minor radius of ellipse : \n");
 	scanf("%d%d",&rx,&ry);
-	printf("Enter the center of the ellipse as xc and yx :");
+	printf("Enter the center of ellipse as xc and yc : \n");
 	scanf("%d%d",&xc,&yc);
+	
 	
 	x=0;
 	y=ry;
-	putpixel(x,y,RED);
+	pixel(x,y,xc,yc);
+	p1=ry*ry -(ry*rx*rx) + ((1/4)*rx*rx);
 	while((2*ry*ry*x) < (2*rx*rx*y)){
-		p1=ry*ry -(ry*rx*rx) + ((1/4)*rx*rx);
+		
 		if(p1<0){
 			x=x+1;
 			y=y;
@@ -29,15 +37,13 @@ int main(){
 			y=y-1;
 			p1=p1 + (2*ry*ry*x)-(2*rx*rx*y)+ ry*ry;
 		}
-		putpixel(x+xc,y+yc,RED);
-		putpixel(x+xc,-y+yc,RED);
-		putpixel(-x+xc,y+yc,RED);
-		putpixel(-x+xc,-y+yc,RED);
+		pixel(x,y,xc,yc);
 		delay(300);
 	}
-	
-	while(y!=0){
-		p2=(ry*ry*(x+(1/2))*(x+(1/2))) + (rx*rx*(y-1)*(y-1)) - (rx*rx*ry*ry) ;
+	p2=(ry*ry*(x+(1/2))*(x+(1/2))) + (rx*rx*(y-1)*(y-1)) - (rx*rx*ry*ry) ;
+	while(y>=0){
+		
+		
 		if(p2<=0){
 			x=x+1;
 			y=y-1;
@@ -48,11 +54,8 @@ int main(){
 			p2=p2 - (2*rx*rx*y) + rx*rx;
 			
 		}
-		putpixel(x+xc,y+yc,RED);
-		putpixel(x+xc,-y+yc,RED);
-		putpixel(-x+xc,y+yc,RED);
-		putpixel(-x+xc,-y+yc,RED);
-		delay(300);
+		pixel(x,y,xc,yc);
+		
 	}
 	getch();
 	closegraph();
