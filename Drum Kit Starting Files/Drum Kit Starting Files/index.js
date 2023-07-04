@@ -21,6 +21,16 @@ var audio = new Audio('sounds/tom-1.mp3');
         console.log(housekeeper1.name);
 
 
+        function HouseKeeper (name, age, yearsOfExperience, language){
+            this.name = name;
+            this.age = age;
+            this.yearsOfExperience= yearsOfExperience;
+            this.language= language;
+        }
+        var housekeep1 = new HouseKeeper("Aryab",19, 3, ["English", "Nepali"]);
+        
+        var housekeep2 = new HouseKeeper("Binod",23, 8, ["Japnese", "Nepali"]);
+        console.log(housekeep2.language);
 
 /*
 
