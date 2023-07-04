@@ -13,6 +13,11 @@ for (var i = 0; i< numberOfDrumButtons; i++){
 var audio = new Audio('sounds/tom-1.mp3');
         audio.play();
 
+
+
+        
+
+/*
         var housekeeper1 = { 
             name: "Sunayna",
             YearsofExperience: 49
@@ -32,7 +37,7 @@ var audio = new Audio('sounds/tom-1.mp3');
         var housekeep2 = new HouseKeeper("Binod",23, 8, ["Japnese", "Nepali"]);
         console.log(housekeep2.language);
 
-/*
+
 
 function multiply(val1, val2){
     return val1 * val2;
